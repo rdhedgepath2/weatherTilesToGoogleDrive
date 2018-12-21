@@ -5,6 +5,6 @@ Sharing code to
   3. Updating existing files on Google Drive in a given directory.
   4. Will also create weather images that is used in Action Tile layout for personal use. 
   
-  This is used for person use and was put together for a lot of searching on the Internet. Sharing this code hoping that someone will find useful.
+  This is used for person use and was put together fron a lot of searching on the Internet. Sharing this code hoping that someone will find useful.
   
   This is a Python 2.7 script. I run this on Ubuntu 18.04. 
