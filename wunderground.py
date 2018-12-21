@@ -73,7 +73,7 @@ def authGoogle():
 
 def createFiles():
     # ----------- Conditions
-    conditions = urlopen('http://api.wunderground.com/api/4a9d1f189cf7f2f8/geolookup/conditions/q/39.262733,-94.641335.json')
+    conditions = urlopen('http://api.wunderground.com/api/<api_key>/geolookup/conditions/q/39.262733,-94.641335.json')
     json_string = conditions.read()
     parsed_json = json.loads(json_string)
     with open("/home/richard/www/actiontiles/weatherC.json", 'w+') as file:
